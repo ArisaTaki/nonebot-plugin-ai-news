@@ -27,6 +27,6 @@ _config: Config | None = None
 
 def get_config() -> Config:
     global _config
-    if _config is None:``
+    if _config is None:
         _config = Config(**get_driver().config.model_dump())
     return _config
