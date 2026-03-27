@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nonebot-plugin-ai-news"
-version = "0.1.0"
+version = "0.1.1"
 description = "NoneBot2 plugin that collects AI news (models, tools, tech) from RSS feeds and pushes to subscribed groups on schedule."
 readme = "README.md"
 requires-python = ">=3.10"
